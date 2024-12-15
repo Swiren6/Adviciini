@@ -27,6 +27,7 @@ const PlansOverviewChart = () => {
       <h2 className="text-lg font-medium mb-4 text-gray-100">Plans Overview</h2>
 
       <div className="h-80">
+
         <ResponsiveContainer width={"100%"} height={"100%"}>
           <LineChart data={plansData}>
             <CartesianGrid strokeDasharray="3 3" stroke="#4B5563" />
@@ -41,7 +42,7 @@ const PlansOverviewChart = () => {
             />
             <Line
               type="monotone"
-              dataKey="plans"  // Updated to "plans"
+              dataKey="plans"  
               stroke="#6366F1"
               strokeWidth={3}
               dot={{ fill: "#6366F1", strokeWidth: 2, r: 6 }}

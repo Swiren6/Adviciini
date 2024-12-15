@@ -12,7 +12,7 @@ const PlansPage = () => {
 	return (
 		<div className='flex-1 overflow-auto relative z-10'>
 			<Header title='Plans Dashboard' />
-
+			<div className='flex-1 overflow-auto relative z-10 bg-[#DADADA]'>
 			<main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
 				{/* PLAN STATS */}
 				<motion.div
@@ -35,6 +35,7 @@ const PlansPage = () => {
 					<CategoryDistributionChart />
 				</div>
 			</main>
+			</div>
 		</div>
 	);
 };
